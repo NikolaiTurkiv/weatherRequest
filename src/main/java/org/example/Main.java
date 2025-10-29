@@ -13,7 +13,7 @@ import java.util.List;
 
 
 public class Main {
-// ключ изменен, если есть необходимость проверить работоспособность, то используйте свой
+    // ключ изменен, если есть необходимость проверить работоспособность, то используйте свой
     private final static String API_KEY = "0ca2687a-52d6-403b";
     private final static String BASE_URL = "https://api.weather.yandex.ru/v2/forecast?lat=%1$s&lon=%2$s&limit=%3$s";
 
@@ -76,7 +76,6 @@ public class Main {
             return response.toString();
         } catch (Exception e) {
             System.out.println(e.getMessage());
-            ;
             return null;
         } finally {
             if (connection != null) {
