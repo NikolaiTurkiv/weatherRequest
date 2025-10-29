@@ -13,8 +13,8 @@ import java.util.List;
 
 
 public class Main {
-
-    private final static String API_KEY = "0ca2687a-52d6-403b-b5f2-91bda6bbf4b5";
+// ключ изменен, если есть необходимость проверить работоспособность, то используйте свой
+    private final static String API_KEY = "0ca2687a-52d6-403b";
     private final static String BASE_URL = "https://api.weather.yandex.ru/v2/forecast?lat=%1$s&lon=%2$s&limit=%3$s";
 
     public static void main(String[] args) {
